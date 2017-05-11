@@ -1,0 +1,37 @@
+body{
+  background-color: #eaf2ee;
+  text-align: center;
+  font-family: Poppins-Medium;
+}
+
+#heading{
+color:#8100f9;
+}
+
+#quote-box{
+text-align: center;
+background-color: white;
+border-radius: 10px;
+font-family: Poppins;
+color:#8d08e0;
+font-size: 150%;
+margin:3% 12% 3px 12%;
+padding:2% 2% 2px 2%;
+}
+
+.buttons{
+	float:center;
+	margin-top: 1%;
+}
+
+#new-quote{
+
+	color: white;
+	background-color: #5b08e0
+}
+
+#tweet{
+
+	color: white;
+	background-color: #00aced;
+}
