@@ -25,9 +25,17 @@ padding:3% 2% 3px 2%;
 	margin-top: 3%;
 	
 }
+<<<<<<< HEAD
 
 #tweet, #new-quote{
 	background-color: red;
+=======
+#new-quote{
+	color: white;
+	background-color: #036d68;
+}
+#tweet{
+>>>>>>> 9e74e753df37c69d606ed2b372d00fa8bb9a3128
 	color: white;
 }
 
