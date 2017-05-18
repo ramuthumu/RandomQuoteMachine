@@ -5,14 +5,16 @@ $(document).ready(function(){
 	var quotes;
 	$.getJSON(quoteAPI, function(json){
 	   quotes = json.quote;
-	  authors = json.author;
+	  author = json.author;
 	  $("#quote-text").html(json.quote);
+    $("#author").html(json.author);
 	});
 $("#new-quote").on("click", function(){
 $.getJSON(quoteAPI, function(json){
    quotes = json.quote;
-  authors = json.author;
+  author = json.author;
   $("#quote-text").html(json.quote);
+  $("#author").html(json.author);
 });
 });
 

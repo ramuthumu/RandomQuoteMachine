@@ -1,46 +1,26 @@
 body{
-  background-color: #0C1A2A;
+  background-color:  #5E48C0;
   text-align: center;
   font-family: Poppins-Medium;
 }
 
 #heading{
-color:#DA4E68;
+
+color:white;
 }
 
 #quote-box{
 text-align: center;
-background-color:#0C1A2A;
-
-font-family: Poppins;
 color:white;
+font-family: Poppins;
 font-size: 150%;
-
 margin-top:3% ;
 padding:3% 2% 3px 2%;
 }
 
-.buttons{
-	float:center;
-	margin-top: 3%;
-	
-}
-<<<<<<< HEAD
 
 #tweet, #new-quote{
-	background-color: red;
-=======
-#new-quote{
-	color: white;
-	background-color: #036d68;
-}
-#tweet{
->>>>>>> 9e74e753df37c69d606ed2b372d00fa8bb9a3128
-	color: white;
-}
-
-footer{
-	font-family: Poppins;
-	margin-top:30px;
-	color: #756CE7;
+	background-color:  #EB3999;
+  color:white;
+  float:center;
 }
