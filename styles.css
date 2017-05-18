@@ -1,27 +1,38 @@
 body{
-  background-color: #337260;
+  background-color: #0C1A2A;
   text-align: center;
   font-family: Poppins-Medium;
 }
 
 #heading{
-color:white;
+color:#DA4E68;
 }
 
 #quote-box{
 text-align: center;
-background-color:white;
-border-radius: 10px;
+background-color:#0C1A2A;
+
 font-family: Poppins;
-color:#036d68;
+color:white;
 font-size: 150%;
-margin:3% 12% 0 12%;
+
+margin-top:3% ;
 padding:3% 2% 3px 2%;
 }
 
 .buttons{
 	float:center;
 	margin-top: 3%;
+	
+}
+
+#tweet, #new-quote{
+	background-color: red;
 	color: white;
-	background-color: #036d68;
+}
+
+footer{
+	font-family: Poppins;
+	margin-top:30px;
+	color: #756CE7;
 }
