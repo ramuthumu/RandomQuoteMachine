@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   var author;
-	var quoteAPI = "http://quotes.stormconsultancy.co.uk/random.json";
+	var quoteAPI = "https://random-quote-generator.herokuapp.com/api/quotes/random";
 	var quotes;
 	$.getJSON(quoteAPI, function(json){
 	   quotes = json.quote;
